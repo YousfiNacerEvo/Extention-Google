@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+main{
+    background-color: #1A2323;
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    width: 200px;
+    height: 40px;
+    margin: 5px 0;
+}
+.box input,
+.box button{
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+}
+.box input{
+    background-color: white;
+}
+.box button{
+    background-color: #20B873;
+    color: white;
+    cursor: pointer;
+}
